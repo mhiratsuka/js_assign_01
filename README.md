@@ -1,8 +1,10 @@
-*Name*
+#Name
+
 Assignment1 
 This is the first assignment for Intro Webprogramming.
 
-*Overview*
+#Overview
+
 This directory consists of
 ##assign1.js:
 1. create an empty array.
