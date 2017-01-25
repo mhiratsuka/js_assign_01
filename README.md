@@ -1,11 +1,9 @@
 #Name
-
 Assignment1 
 This is the first assignment for Intro Webprogramming.
 
 #Overview
-
-This directory consists of
+This directory consists of 4 files.
 ##assign1.js:
 1. create an empty array.
 2. add an item to the end of the array.
