@@ -1,26 +1,15 @@
-const sum = (Number(process.argv[2])) +  (Number(process.argv[3]));
-/*Number("10");
-Number("100");
-Number("1000");
-*/
+const myVal1 = process.argv[2];
+const myVal2 = process.argv[3];
+const number1 =Number(myVal1);
+const number2 =Number(myVal2);
+const sum = number1+  number2;
 
-if(Number("10") < sum< Number("100")){
+
+if(sum > 10 && sum <100){
     console.log(sum);
-    
-}else if(Number("100") < sum < Number("1000")){
-    console.log(sum);
-    
-}else {
+} else if(sum > 100 && sum <1000){
+    console.log(sum);1
+}else{
     console.log(`none`);
 }
 
-
-/*if(10 < sum< 100){
-    console.log(sum);
-    
-}else if(100 < sum < 1000){
-    console.log(sum);
-    
-}else {
-    
-}*/

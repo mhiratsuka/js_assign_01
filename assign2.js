@@ -5,3 +5,5 @@ const number2 = Number(myVal[3]);
 const sum = number1 + number2;
 console.log(sum);
 
+
+

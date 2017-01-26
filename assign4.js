@@ -1,4 +1,5 @@
-const mealCost = Number(process.argv[2]);
+const mealCost = process.argv[2];
+/*const mealCost = Number(process.argv[2]);*/
 const tipPercent = 15;
 const tipAmount = (tipPercent / 100) * mealCost;
 const totalOwing = tipAmount + mealCost;
